@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    
+    <!-- Browser's Tab Title -->
+    <title>PANAHAS Template</title>
+      
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="../css/bootstrap/css/bootstrap.min.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="../css/w3/w3.css">
+    
+    <!-- Documents Path --->
+    <link rel="stylesheet" href=".docs/docs.min.css">
+    
+    <!--Include your modified CSS below as needed-->
+    <link rel="stylesheet" href="../css/w3/blue.css">
+    <link rel="stylesheet" href="../css/w3/yellow.css">
+    <link rel="stylesheet" href="../css/w3/w3.css">
+    <link rel="stylesheet" href="../css/sideNav.css">
+    <link rel="stylesheet" href="../css/backToTop.css">
+    <link rel="stylesheet" href="../css/alert.css">
+    
+    <!-- Icons CSS -->
+    <link rel="stylesheet" href="../css/font-awesome/css/font-awesome.min.css" type="text/css">
+    
+    <!-- Browser's Tab Image -->
+    <link rel="shortcut icon" href="../docs/pnhs_img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="../docs/img/pnhs_favicon.ico" type="image/x-icon">
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap -->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+</head>
+
+<body>
+    
+<nav class="navbar-fixed-top w3-theme-bd5 w3-card-4" style="background-color:rgba(42,101,149,0.95)!important" role="navigation">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed fa fa-bars hidden-sm hidden-md hidden-lg" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+      </button>
+      <a class="navbar-brand w3-card-4" href="../pages/index.html"><img src="../docs/img/pnhs_logo.png" width="75px" height="75px"></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <hr class="hidden-sm hidden-md hidden-lg" style="height:10px; border:0">
+      <ul class="nav navbar-nav">
+        <li class="active:true"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Link</a></li>
+      </ul>
+        <form class="navbar-form navbar-left">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
+              </span>
+          </div>
+        </form>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#"><i class="fa fa-user fa-fw"></i> User Profile</a></li>
+              <li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a></li>
+              <li class="divider"></li>
+              <li><a href="login.html"><i class="fa fa-sign-out fa-fw"></i> Logout</a></li>
+            </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+<hr class="w3-theme-yd2" style="height:3px; border:0; margin-top:0px; margin-bottom:0px;">
+<hr class="w3-theme-bd2" style="height:3px; border:0; margin-top:0px; margin-bottom:0px;">
+</nav>
+<div class="container" style="padding:35px; background:rga(0,0,0,0.5)"></div>
+
+<div id="mySidenav" class="sidenav w3-card-4">
+  <a href="javascript:void(0)" class="closebtn" style="margin-left:150px" onclick="closeNav()">&times;</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a>
+</div>
+
+<div id="main">
+
+<a id="openBtn" onclick="openNav()" title="Open Side Navigation" data-toggle="tooltip" data-placement="right">
+    <span class="glyphicon glyphicon-chevron-right" style="top:45%"></span>
+</a>
+
+<a id="back-to-top" href="#" class="w3-circle w3-card-4" title="Return to Top" data-toggle="tooltip" data-placement="left">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+</a>
+<div class="w3-container">
+<!-- Modal -->
+<hr>
+<div class="container">
+  <h2 class="w3-center">Modal</h2>
+  <!-- Trigger the modal with a button -->
+  <center>
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+  </center>
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+		<div class="row center">
+				<div class="modalbox success col-sm-8 col-md-6 col-lg-5 center animate">
+						<div class="icon">
+								<span class="glyphicon glyphicon-ok"></span>
+						</div>
+						<!--/.icon-->
+						<h1>Success!</h1>
+						<p>We've sent a confirmation to your e-mail
+								<br>for verification.</p>
+						<button type="button" class="redo btn">Ok</button>
+					<span class="change">-- Click to see opposite state --</span>
+				</div>
+				<!--/.success-->
+		</div>
+		<!--/.row-->
+		<div class="row">
+				<div class="modalbox error col-sm-8 col-md-6 col-lg-5 center animate">
+						<div class="icon">
+								<span class="glyphicon glyphicon-thumbs-down"></span>
+						</div>
+						<!--/.icon-->
+						<h1>Oh no!</h1>
+						<p>Oops! Something went wrong,
+								<br> you should try again.</p>
+						<button type="button" class="redo btn">Try again</button>
+					<span class="change">-- Click to see opposite state --</span>
+				</div>
+				<!--/.success-->
+		</div>
+		<!--/.row-->
+
+</div>
+      </div>
+    </div>
+  </div>    
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="../js/alert.js"></script>
+<script src="../js/slideshow.js"></script>
+<script src="../js/backToTop.js"></script>
+<script src="../js/sideNavII.js"></script>
+<script src="../js/showNav.js"></script>
+</div>
+
+</body>
+</html>

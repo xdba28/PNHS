@@ -1,0 +1,60 @@
+.notifications .dropdown-notif {
+    display:inline-block;
+  }
+
+.notifications .glyphicon-bell {
+   
+    font-size:1.5rem;
+  }
+
+.notifications {
+   min-width:420px; 
+  }
+  
+.notifications .notifications-wrapper {
+     overflow:auto;
+      max-height:200px;
+    }
+    
+.notifications .menu-title {
+        color:#0b78d1 !important;
+        font-size:1rem;
+        display:inline-block;
+    }
+ 
+.notifications .glyphicon-circle-arrow-right {
+      margin-left:10px;     
+   }
+  
+   
+ .notifications .notification-heading,.notifications .notification-footer  {
+ 	padding:2px 10px;
+       }
+      
+        
+.notifications .dropdown-menu.divider {
+  margin:5px 0;          
+  }
+
+.notifications .item-title {
+ font-size:0.75rem;
+ color:#000;
+}
+.notifications .item-title:hover{
+	text-decoration: none;
+}
+.notifications a.content {
+ text-decoration:none;
+ background:#ccc;
+
+ }
+    
+.notifications .notification-item {
+ padding:5px;
+ margin:5px;
+ background:#8ec4f0;
+ border-radius:4px;
+ }
+
+
+

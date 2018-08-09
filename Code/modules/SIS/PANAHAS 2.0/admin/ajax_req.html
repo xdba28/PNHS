@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Ajax Request</title>
+
+	<script>
+	
+		// function req()
+		// {
+		// 	var https = new XMLHttpRequest();
+		// 	https.onreadystatechange = function()
+		// 	{
+		// 		if(https.readyState == 4 && https.status == 200)
+		// 		{
+		// 			document.getElementById("echo").innerHTML = https.responseText;
+		// 		}
+		// 	}
+		// 	https.open("GET", "req.php", true);
+		// 	https.send();
+		// }
+
+		function populate(ch, ch2) // select box changing
+		{
+			var ch = document.getElementById(ch);
+			var ch2 = document.getElementById(ch2);
+			ch2.innerHTML = "";
+			if(ch.value == 1)
+			{
+				var arr = ["|", "11|11", "12|12", "13|13"];
+			}
+			for(var op in arr)
+			{
+				var pair = arr[op].split("|");
+				var newOption = document.createElement("option");
+				newOption.value  = pair[0];
+				newOption.innerHTML = pair[1];
+				ch2.options.add(newOption);
+			}
+		}
+
+	</script>
+
+</head>
+<body>
+	<select id="ch" name="ch" onchange="populate('ch', 'ch2')">
+		<option>--</option>
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>		
+	</select>
+<hr>
+	<select id="ch2" name="ch2"></select>
+
+</body>
+</html>

@@ -1,0 +1,3 @@
+ALDRICK
+
+Do not delete the side navigations and the likes javascript. It is important for the admin pages. >.<

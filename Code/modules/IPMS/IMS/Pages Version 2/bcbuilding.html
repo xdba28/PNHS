@@ -1,0 +1,171 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    
+    <!-- Browser's Tab Title -->
+    <title>PNHS - Inventory System</title>
+	
+	<!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="../css/bootstrap/css/bootstrap.min.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="../css/w3/w3.css">
+	
+	<!--Include your modified CSS below as needed-->
+    <link rel="stylesheet" href="../css/w3/blue.css">
+    <link rel="stylesheet" href="../css/w3/yellow.css">
+    <link rel="stylesheet" href="../css/w3/w3.css">
+	<link rel="stylesheet" href="../css/backToTop.css">
+	
+	<!-- Icons CSS -->
+    <link rel="stylesheet" href="../css/font-awesome/css/font-awesome.min.css" type="text/css">
+    
+    <!-- Browser's Tab Image -->
+    <link rel="shortcut icon" href="../docs/pnhs_img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="../docs/img/pnhs_favicon.ico" type="image/x-icon">
+	
+	<link href="../dist/css/sb-admin-2.css" rel="stylesheet">
+	
+	 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  
+</head>
+
+<body>
+
+<script type="text/javascript">
+
+window.onload = function () {
+	var chart1 = new CanvasJS.Chart("chartContainer1", {
+		title:{
+			text: "Building"              
+		},
+		data: [              
+		{
+			// Change type to "doughnut", "line", "splineArea", etc.
+			type: "bar",
+			dataPoints: [
+				{ label: "Aircon",  y: 6  },
+				{ label: "Ceiling Fan", y: 10  },
+				{ label: "Chalk Board", y: 4  },
+				{ label: "Exhaust Fan",  y: 10  },
+				{ label: "Monoblock Chair",  y: 50  },
+				{ label: "Office Chair",  y: 1  },
+				{ label: "Refrigerator", y: 2  },
+				{ label: "Table", y: 8  },
+				{ label: "Water Dispenser",  y: 3  },
+				{ label: "White Board",  y: 5  }
+				
+			]
+		}
+		]
+	});
+	
+	chart1.render();
+}	
+</script>
+
+	<script src="../js/canvasjs.min.js"> </script>
+	
+	 <style>
+    /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+    .row.content {height: 530px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: #a5d1f3	;
+      height: 100%;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;} 
+    }
+  </style>
+
+<nav class="navbar-fixed-top w3-theme-bd5 w3-card-4" style="background-color:rgba(42,101,149,0.95)!important" role="navigation">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed fa fa-bars hidden-sm hidden-md hidden-lg" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+      </button>
+      <a class="navbar-brand w3-card-4" href="../pages/index.html"><img src="../docs/img/pnhs_logo.png" width="75px" height="75px"></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <hr class="hidden-sm hidden-md hidden-lg" style="height:10px; border:0">
+      <ul class="nav navbar-nav">
+        <li class="active:true">
+		<a href="index.html"> <p class="fa fa-home"> Home </p> <span class="sr-only">(current)</span>
+		</a>
+		</li>
+		<li><a href="bcbuilding.html"><p class="fa fa-bar-chart-o">&nbsp;&nbsp;Bar Chart </p></a></li>
+      </ul>  
+
+      <ul class="nav navbar-nav navbar-right">
+		<li><a href="#"><p class="fa fa-copy">&nbsp;&nbsp;Borrow</p></a></li>
+        <li><a href="#"><p class="fa fa-copy">&nbsp;&nbsp;Request</p></a></li>
+		<li><a href="#"><p class="fa fa-copy">&nbsp;&nbsp;Reports </p></a></li>
+		<li><a href="#"><p class="fa fa-arrow-up">&nbsp;&nbsp;Update</p></a></li>
+        <li><a href="#"><p class="fa fa-plus"> Add</p></a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><p class="fa fa-gear">&nbsp;&nbsp;Others </p><span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#"><i class="fa fa-user fa-fw"></i> User Profile</a></li>
+              <li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a></li>
+              <li class="divider"></li>
+              <li><a href="login.html"><i class="fa fa-sign-out fa-fw"></i> Logout</a></li>
+            </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+<hr class="w3-theme-yd2" style="height:3px; border:0; margin-top:0px; margin-bottom:0px;">
+<hr class="w3-theme-bd2" style="height:3px; border:0; margin-top:0px; margin-bottom:0px;">
+</nav>
+<div class="container" style="padding:35px; background:rga(0,0,0,0.5)"></div>
+</br>
+
+<div id="main">
+	<div class="container-fluid">
+	  <div class="row content">
+		<div class="col-sm-3 sidenav">
+		  <h1>Bar Chart :</h1>
+		  <ul class="nav nav-pills nav-stacked">
+			<li><a href="bcbuilding.html"><h4>Building</h4></a></li>
+			<li><a href="bcequip.html"><h4>Equipment</h4></a></li>
+			<li><a href="bcsupply.html"><h4>Supply</h4></a></li>
+		  </ul>
+		</div>
+
+<a id="back-to-top" href="#" class="w3-circle w3-card-4" title="Return to Top" data-toggle="tooltip" data-placement="left">
+    <span class="glyphicon glyphicon-chevron-up"> </span>
+</a>
+
+	<div class="col-sm-9"> 
+			<div id="chartContainer1" style="height: 400px; width: 100%;"></div> </br>
+	</div>
+	
+</div>
+ </div>
+</div>
+
+<script src="../js/backToTop.js"></script>
+
+<!-- Footer -->
+<footer class="w3-container w3-theme-bd5">
+  <h5><p class="text-right">&copy; 2017, Inventory System</p></h5>
+</footer>
+</body>
+</html>

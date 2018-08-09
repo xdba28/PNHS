@@ -1,0 +1,22 @@
+.button {
+    background-color:rgba(221, 221, 221, 0);
+    border: none;
+    color:rgba(221, 221, 221, 0);
+    text-decoration: none;
+    display: inline-block;
+    font-size: 70px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width:290px;
+    height:290px;
+    position:absolute;
+    top:4px;
+    left:4px;
+    border-radius:0px
+}
+
+.button5:hover {
+    background-color:rgba(10, 49, 78, 0.50);
+    color:rgba(221, 221, 221, 0.50);
+}

@@ -1,0 +1,104 @@
+<div class="w3-center">
+  <h2>Color Themes</h2>
+</div>
+    
+<div class="w3-row-padding">
+
+<div class="w3-half">
+<div class="w3-card white">
+   <div class="w3-card-4">
+<div class="w3-container w3-ytheme w3-card-2">
+  <h1>Yellow</h1>
+</div>
+
+<div class="w3-container w3-text-ytheme">
+<h2>w3-text-ytheme</h2></div>
+
+<ul class="w3-ul w3-border-top">
+  <li class="w3-theme-yl5">
+  <p>w3-theme-yl5 (w3-theme-ylight)</p>
+  </li>
+  <li class="w3-theme-yl4">
+    <p>w3-theme-yl4</p>
+  </li>
+  <li class="w3-theme-yl3">
+    <p>w3-theme-yl3</p>
+  </li>
+  <li class="w3-theme-yl2">
+    <p>w3-theme-yl2</p>
+  </li>
+  <li class="w3-theme-yl1">
+    <p>w3-theme-yl1</p>
+  </li>
+  <li class="w3-ytheme">
+    <p>w3-ytheme</p>
+  </li>
+  <li class="w3-theme-yd1">
+    <p>w3-theme-yd1</p>
+  </li>
+  <li class="w3-theme-yd2">
+    <p>w3-theme-yd2</p>
+  </li>
+  <li class="w3-theme-yd3">
+    <p>w3-theme-yd3</p>
+  </li>
+  <li class="w3-theme-yd4">
+    <p>w3-theme-yd4</p>
+  </li>
+  <li class="w3-theme-yd5">
+    <p>w3-theme-yd5 (w3-theme-dark)</p>
+  </li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class="w3-half">
+<div class="w3-card white">
+  <div class="w3-card-4">
+<div class="w3-container w3-btheme w3-card-2">
+  <h1>Blue</h1>
+</div>
+
+<div class="w3-container w3-text-btheme">
+<h2>w3-text-btheme</h2></div>
+
+<ul class="w3-ul w3-border-top">
+  <li class="w3-theme-bl5">
+  <p>w3-theme-bl5 (w3-theme-light)</p>
+  </li>
+  <li class="w3-theme-bl4">
+    <p>w3-theme-bl4</p>
+  </li>
+  <li class="w3-theme-bl3">
+    <p>w3-theme-bl3</p>
+  </li>
+  <li class="w3-theme-bl2">
+    <p>w3-theme-bl2</p>
+  </li>
+  <li class="w3-theme-bl1">
+    <p>w3-theme-bl1</p>
+  </li>
+  <li class="w3-btheme">
+    <p>w3-btheme</p>
+  </li>
+  <li class="w3-theme-bd1">
+    <p>w3-theme-bd1</p>
+  </li>
+  <li class="w3-theme-bd2">
+    <p>w3-theme-bd2</p>
+  </li>
+  <li class="w3-theme-bd3">
+    <p>w3-theme-bd3</p>
+  </li>
+  <li class="w3-theme-bd4">
+    <p>w3-theme-bd4</p>
+  </li>
+  <li class="w3-theme-bd5">
+    <p>w3-theme-bd5 (w3-theme-dark)</p>
+  </li>
+</ul>
+</div>
+</div>
+</div>
+</div>

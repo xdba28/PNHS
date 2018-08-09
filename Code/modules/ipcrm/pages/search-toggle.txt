@@ -1,0 +1,9 @@
+<h2 class="w3-center">Buttons</h2>
+<br>
+<div class="container" style="max-width:300px">
+    <form class="searchbox">
+        <input type="search" placeholder="Search" name="search" class="searchbox-input" onkeyup="buttonUp();" required>
+        <input type="submit" class="searchbox-submit" value="GO">
+        <span class="searchbox-icon"><i class="fa fa-search"></i></span>
+    </form>
+</div>

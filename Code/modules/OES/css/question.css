@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url(https://fonts.googleapis.com/css?family=Gudea);
+
+.content {
+  padding: 5em 13em;
+  background: #1c3845;
+  font-family: "Roboto", sans-serif;
+}
+
+.content #mainLogin {
+  margin: 0 auto;
+  width: 350px;
+  height: 50px;
+  background: #fff;
+  box-shadow: 0px 10px 20px -20px #000;
+  position: relative;
+  z-index: 2;
+}
+
+.content #logo {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  background: #3b5998;
+  font-size: 2em;
+  text-align: center;
+  color: #fff;
+  line-height: 50px;
+  font-weight: bold;
+}
+
+.content #title {
+  display: inline-block;
+  text-align: center;
+  letter-spacing: 4px;
+  width: 290px;
+  height: 50px;
+  color: #359fcd;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    vertical-align: middle;
+}
+
+.content #formContainer {
+  margin: 0 auto;
+}
+
+.det {
+    font: 20px 'Open Sans', sans-serif;
+  padding: 2em;
+    margin: -20px auto auto;
+    background-color: white;
+    color: #555;
+    border-radius: 5px;
+}
+
+.sect {
+  display: none;
+  padding: 20px 0 0;
+  border-top: 1px solid #ddd;
+}
+
+.sect p {
+  margin: 0 0 20px;
+  line-height: 1.5;
+}
+
+.det > input {
+  display: none;
+}
+
+.det .tab {
+  display: inline-block;
+  margin: 0 0 -1px;
+  padding: 15px 25px;
+  font-weight: 600;
+  text-align: center;
+  color: #bbb;
+  border: 1px solid transparent;
+}
+
+.det .tab:before {
+  font-family: fontawesome;
+  font-weight: normal;
+  margin-right: 10px;
+}
+
+.det .tab[for*='1']:before {
+  content: '\f0fe';
+}
+.det .tab[for*='2']:before {
+  content: '\f059';
+}
+.det .tab:hover {
+  color: #888;
+  cursor: pointer;
+}
+
+.det > input:checked + label {
+  color: #555;
+  border: 1px solid #ddd;
+  border-top: 2px solid orange;
+  border-bottom: 1px solid #fff;
+}
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2{
+  display: block;
+}
+
+.det #content1 .row, 
+.det #content2 .row{
+    color: #333;
+    font-family: 'Gudea', Helvetica, sans-serif;
+    margin: 0 1em;
+}
+
+.det #content1 .row:nth-of-type(3), 
+.det #content2 .row:nth-of-type(2){
+    margin-top: 1em;
+}
+
+.det #content2 .row .table{
+    margin-bottom: 2rem;
+}
+.det #content2 .row .table thead tr th:nth-of-type(2),
+.det #content2 .row .table tbody tr td:nth-of-type(2){
+    text-align: right;
+    vertical-align: middle;
+    min-width: 8.5em;
+}
+.det #content2 .row .table thead tr th:nth-of-type(2){
+    padding-right: 10%;
+}
+.det #content2 .row .table thead tr th:nth-of-type(1),
+.det #content2 .row .table tbody tr td:nth-of-type(1){
+    text-align: left;
+    vertical-align: middle;
+}
+.det #content2 .row .table tbody tr td:nth-of-type(1), 
+.det #content2 .row .table tbody tr td:nth-of-type(2){
+    font-size: 0.75em;
+}
+
+@media screen and (max-width: 650px) {
+  .det label {
+    font-size: 0;
+  }
+
+  .det label:before {
+    margin: 0;
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .det label {
+    padding: 15px;
+  }
+}
+
+.outline-thread {
+    z-index: -1;
+    background-color: #2e2e2e;
+    padding: 10px;
+    margin: 0.5em auto;
+}
+.field_wrapper{
+    margin-top: 0.5em!important;
+    margin-bottom: 0.5em!important;
+    list-style-type: none;
+}
+
+.title-thread {
+    color: black;
+  background-color: #fff;
+  height: auto;
+  width: 100%;
+    margin: 0;
+    padding:1em;
+}
+.outline{
+    z-index: -1;
+    background-color: #2e2e2e!important;
+    padding: 0.25em;
+    width: 25%;
+    margin-bottom: 0.5em!important;
+    cursor: pointer;
+    border: none;
+}
+.outline:hover .name_title{
+    opacity: 0.5;
+}
+.col.l3 > .btn-large {
+   min-width: 100%;
+}
+.add{
+  margin: 0;
+    border-radius: 0;
+    background-color: #58d68d;
+}
+.add_red{
+    background-color:  #ec7063;
+}
+.add_blue{
+    background-color:  #2196f3;
+}
+.name_title {
+    text-transform: uppercase;
+  color: #fff;
+  font-size: 1.5em;
+  padding: 10px;
+  text-align: center;
+}
+.add_q, .add_b{
+  text-decoration: none!important;
+}
+.button_top{
+    margin-top: 1em!important;
+    text-align: center;
+}
+.btn-danger{
+    background-color: #C9302C;
+    color: white;
+}
+.btn-danger:hover{
+    background-color: indianred;
+}
+#content2 .header{
+    margin: 1rem 0 0.5rem!important;
+    font-size: 2.28rem;
+  line-height: 110%;
+    color: #EB7077;
+}

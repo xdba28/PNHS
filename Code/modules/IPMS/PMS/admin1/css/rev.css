@@ -1,0 +1,66 @@
+.snip1514 {
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  width: 100%;
+  box-shadow: none !important;
+  padding: 16px;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.snip1514 img {
+  max-width: 100%;
+  backface-visibility: hidden;
+  vertical-align: top;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.snip1514:before,
+.snip1514:after {
+  z-index: -1;
+  position: absolute;
+  content: '';
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  opacity: 0.6;
+}
+
+.snip1514:before {
+  background-color: #444;
+  top: 0px;
+  left: 0px;
+  bottom: 32px;
+  right: 32px;
+}
+
+.snip1514:after {
+  border: 8px solid #444;
+  bottom: 0px;
+  right: 0px;
+  top: 32px;
+  left: 32px;
+}
+
+.snip1514 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.snip1514:hover:before,
+.snip1514.hover:before,
+.snip1514:hover:after,
+.snip1514.hover:after {
+  opacity: 1;
+}
+
+
+/* Demo purposes only */
+body {
+  background-color: #212121;
+}

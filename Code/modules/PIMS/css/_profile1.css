@@ -1,0 +1,11 @@
+div #home-pills {
+	height: 890px;
+	width: auto;
+	overflow-y: scroll;
+}
+
+div  #profile-pills{
+	height: 890px;
+	width: auto;
+	overflow-y: scroll;
+}

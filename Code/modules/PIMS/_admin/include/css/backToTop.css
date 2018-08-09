@@ -1,0 +1,23 @@
+#back-to-top {
+    
+  cursor: pointer;
+    
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  display:none;
+
+  background-color: rgba(76, 128, 169, 0.5)!important;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+
+#back-to-top:hover {
+
+  background-color: rgba(42,101,149,0.95)!important;
+  color: white;
+}

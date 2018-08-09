@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:300,500");
+@import url("https://fonts.googleapis.com/css?family=Crete+Round:400,400i");
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900);
+.heading h2 {
+    font-size: 2rem;
+    color: #464a4e;
+    text-align: center;
+    font-family: 'Crete Round', Georgia, "Times New Roman", Serif;
+    font-weight: normal;
+    line-height: 1.2;
+    margin-bottom: 0;
+}
+strong {
+    display: block;
+    margin: 2rem 0 1rem;
+    font-weight: 500
+}
+.content img {
+    width: 100%;
+    max-width: 100%
+}
+.content .heading {
+    font-size: 1rem;
+    padding: 3em 0;
+    margin-bottom: 3rem;
+    border-bottom: 1px solid #DDD
+}
+@media (max-width:992px){
+    .content .heading{
+        padding: 2em 0!important;
+    }
+}
+@media (max-width:768px){
+    .content .heading{
+        padding: 1em 0!important;
+    }
+}
+.content .intro {
+    font-size: 1.2rem;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.content .intro p::first-letter {
+    font-size: 4rem;
+    font-family: 'Crete Round', Georgia, "Times New Roman", Serif;
+    vertical-align: text-top;
+    margin: -1.3rem .5rem -1.4rem 0;
+    float: left;
+    color: #b4a191
+}
+.content .intro ul {
+    padding-left: 2rem
+}
+.content .intro ul li, .crw {
+    list-style-position:inside;
+}
+@media (min-width: 768px) {
+    .intro{
+        display: inline-block;
+        vertical-align: top;
+        padding-right: 2rem;
+    }
+}

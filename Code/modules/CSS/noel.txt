@@ -1,0 +1,14 @@
+swal({
+        title:'Storage disk does not exist in the server!',
+        text:'Enter storage disk again?',
+        type:'warning',
+        showCancelButton:true,},
+        function(){
+        	window.location.href='arch_disk.php';
+        });
+
+swal({
+        title:'Storage disk does not exist in the server!',
+        text:'Enter storage disk again?',
+        type:'warning'});
+

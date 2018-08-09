@@ -1,0 +1,129 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+.main-section{
+    background: #4fc3f7;
+    padding-top: 7em;
+}
+
+.test-completion {
+    margin: auto;
+    margin-bottom: 7em;
+  max-width: 500px;
+  padding: 2em 10px;
+  text-align: center;
+  background-color: #fff;
+  -webkit-animation: slideIn 0.33s cubic-bezier(0.37, 0.82, 0.2, 1);
+  animation: slideIn 0.33s cubic-bezier(0.37, 0.82, 0.2, 1);
+  -webkit-box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+}
+.test-completion :nth-child(1) {
+  -webkit-animation: slideIn 0.5s cubic-bezier(0.37, 0.82, 0.2, 1);
+  animation: slideIn 0.5s cubic-bezier(0.37, 0.82, 0.2, 1);
+}
+.test-completion :nth-child(2) {
+  -webkit-animation: slideIn 1s cubic-bezier(0.37, 0.82, 0.2, 1);
+  animation: slideIn 1s cubic-bezier(0.37, 0.82, 0.2, 1);
+}
+.test-completion :nth-child(3) {
+  -webkit-animation: slideIn 1.5s cubic-bezier(0.37, 0.82, 0.2, 1);
+  animation: slideIn 1.5s cubic-bezier(0.37, 0.82, 0.2, 1);
+}
+.test-completion :nth-child(4) {
+  -webkit-animation: slideIn 2s cubic-bezier(0.37, 0.82, 0.2, 1);
+  animation: slideIn 2s cubic-bezier(0.37, 0.82, 0.2, 1);
+}
+.test-completion .trophy {
+  width: 100px;
+  height: auto;
+  margin-bottom: 24px;
+}
+.test-completion .title {
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #1a1a1a;
+  font-size: 2rem;
+  margin-bottom: 22px;
+}
+.test-completion .score {
+  display: block;
+  margin-bottom: 1rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #0288d1;
+  letter-spacing: 1px;
+}
+.test-completion .percent:before {
+  content: " (";
+}
+.test-completion .percent:after {
+  content: "%)";
+}
+.test-completion .b:before {
+  content: "/";
+}
+.test-completion p {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #999;
+  font-size: 1.25em;
+  padding: 0 15%;
+  line-height: 24px;
+}
+.test-completion .buttons {
+  position: relative;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+}
+.test-completion .buttons .button {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1em;
+  border-radius: 5px;
+  margin: 0 10%;
+  height: 48px;
+  line-height: 48px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+.test-completion .buttons .button:hover span {
+  opacity: 0.5;
+}
+.test-completion .buttons .button:not(:last-of-type) {
+  margin-bottom: 12px;
+}
+.test-completion .buttons .button.light {
+  background-color: #4fc3f7;
+}
+.test-completion .buttons .button.dark {
+  background-color: #0288d1;
+}
+@-webkit-keyframes slideIn {
+  0% {
+    opacity: 0;
+    -webkit-filter: blur(15px);
+            filter: blur(15px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+  }
+}
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    -webkit-filter: blur(15px);
+            filter: blur(15px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+  }
+}

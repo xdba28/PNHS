@@ -1,0 +1,45 @@
+.container-full {
+  margin: 0 auto;
+  width: 100%;
+}
+.w3-card-4{
+    background-color:rgba(42,101,149,0.95)!important;
+    color: white;
+}
+.navbar-nav li{
+    text-transform: uppercase;
+}
+.navbar-right li{
+    text-transform: capitalize;
+    color: #fff!important;
+}
+.navbar-brand img{
+    width: 75px!important;
+    height: 75px!important;
+}
+.navbar-brand img.admin{
+    width:40px!important;
+    height:40px!important;
+    margin: -10 50px auto!important;
+}
+.hidden-lg{
+    height:10px!important; 
+    border:0!important;
+}
+.w3-theme-yd2, .w3-theme-bd2{
+    height:3px!important; 
+    border:0!important; 
+    margin: 0 auto!important; 
+}
+footer{
+    padding-bottom: 1em;
+}
+footer a{
+    padding-right: 1em;
+}
+footer a i{
+    margin-top: 5px;
+}
+footer .w3-justify span{
+    margin-left: 1em;
+}

@@ -1,0 +1,18 @@
+insert into pims_employment_records set 
+			
+			complete_item_no = '1224134',
+			work_stat = 'WORKING',
+			role_type = 'Employee',
+			emp_status = 'PERMANENT',
+			date_joined = '2018-04-01',
+			date_retired = null,
+			div_code = '5',
+			biometric_ID = null,
+			school_ID = '301864',
+			appointment_date = '2017-10-05',
+			faculty_type = 'Non Teaching',
+			job_title_code = 'A1',
+			dept_ID = 'null',
+			emp_No = '123414';
+		
+		

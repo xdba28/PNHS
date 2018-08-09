@@ -1,0 +1,393 @@
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+#container {
+   min-height:100%;
+   position:relative;
+}
+#header {
+   background:#ff0;
+   padding:10px;
+}
+#body {
+   padding:10px;
+   padding-bottom:60px;   /* Height of the footer */
+}
+.copyright {
+    background-color:#2d9a2e;
+   /* background-color: #f8f8f8;*/
+    border-color: #2d9a2e;
+	display:table-row;
+	height:120px;
+}
+
+.copyright p {
+    padding-top: 20px;
+    font-size: 12px;
+    color: #fff;
+    /*color: #777;*/
+    margin: center;
+}
+
+/* Style The tables */
+.time{
+	background-color: #246884;
+	font-size:15px; 
+	color: #fff;
+	vertical-align: middle;
+	text-align: center;
+}
+.column_title{
+	background-color: #153948;
+	color: #fff;
+	text-align: center;	
+	vertical-align: middle;
+}
+.middle {
+	vertical-align:middle;
+	text-align:center;
+}
+.check{
+	width: 28px;
+	height: 28px;
+	position: relative;
+	margin: 20px auto;
+	background: #fcfff4;
+	background: linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+	border-radius: 50px;
+	box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0,0,0,0.5);
+}    
+/* Style The Dropdown Button */
+.dropbtn {
+	background-color:transparent;
+	color:#999;
+	text-align: right;
+	font-size: 13px;
+	border: none;
+	cursor: pointer;
+}
+                                                
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+                                       
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 100px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+                     
+/* Links inside the dropdown */
+.dropdown-content a {
+	color: black;
+	padding: 9px 25px;
+	text-decoration: none;
+	display: block;
+	font-size: 13px;
+}
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color:#B8BDED}                    
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+	display: block;
+}          
+                    
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+	background-color:transparent; 
+}
+.a{
+	float: right;
+	margin: 0;
+}
+
+
+
+/* W3 DESIGN */
+.w3-theme-bl5 {color:#000 !important; background-color:#f2f9fe !important}
+.w3-theme-bl4 {color:#000 !important; background-color:#d2eafd !important}
+.w3-theme-bl3 {color:#000 !important; background-color:#a6d4fa !important}
+.w3-theme-bl2 {color:#000 !important; background-color:#79bff8 !important}
+.w3-theme-bl1 {color:#fff !important; background-color:#4daaf6 !important}
+.w3-theme-bd1 {color:#fff !important; background-color:#0c87eb !important}
+.w3-theme-bd2 {color:#fff !important; background-color:#0b78d1 !important}
+.w3-theme-bd3 {color:#fff !important; background-color:#0a69b7 !important}
+.w3-theme-bd4 {color:#fff !important; background-color:#085a9d !important}
+.w3-theme-bd5 {color:#fff !important; background-color:#074b83 !important}
+
+.w3-theme-blight {color:#000 !important; background-color:#f2f9fe !important}
+.w3-theme-bdark {color:#fff !important; background-color:#074b83 !important}
+.w3-theme-baction {color:#fff !important; background-color:#074b83 !important}
+
+.w3-btheme {color:#fff !important; background-color:#2196f3 !important}
+.w3-text-btheme {color:#2196f3 !important}
+.w3-border-btheme {border-color:#2196f3 !important}
+
+.w3-hover-btheme:hover {color:#fff !important; background-color:#2196f3 !important}
+.w3-hover-text-btheme:hover {color:#2196f3 !important}
+.w3-hover-border-btheme:hover {border-color:#2196f3 !important}
+/* W3 DESIGN END*/
+
+/* CUSTOM DESIGN */	
+
+/*
+ *  STYLE 4
+ */
+
+
+th, td, tr {
+  padding: 8px;
+  border: 1px solid #ddd;
+  width: 160px;
+  word-wrap:break-word;
+}
+
+.search{
+    position: absolute;
+    width: 50px;
+	margin-top:-32px;
+	margin-left:320px;
+    height: 32px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #fff;
+    background-color: #265173;
+    background-image: none;
+    border: 1px solid #265173;
+    border-radius: 3px;
+}
+
+.pane-hScroll {
+  overflow: auto;
+  width: 1045px;
+}
+.pane-vScroll {
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 375px;
+}
+
+.pane-hScroll2 {
+  overflow: auto;
+  width: 1045px;
+}
+.pane-vScroll2 {
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 375px;
+}
+
+.pane-hScroll3 {
+  overflow: auto;
+  width: 1045px;
+}
+.pane-vScroll3 {
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 375px;
+}
+
+.pane-hScroll4 {
+  overflow: auto;
+  width: 1045px;
+}
+.pane-vScroll4 {
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 375px;
+}
+
+.pane-hScroll5 {
+  overflow: auto;
+  width: 1045px;
+}
+.pane-vScroll5 {
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 375px;
+}
+
+.pane-hScroll6 {
+  overflow: auto;
+  width: 1045px;
+}
+.pane-vScroll6 {
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 375px;
+}
+
+.col1 {
+	position:absolute;
+	width:15em;
+	left:4.4em;
+	top:auto;
+	margin-top:-0.1em;
+}
+
+.create {
+    color: #265173;
+    background-color: #ffffff;
+    border-color: #265173;
+}
+
+.btn-circle {
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 10px;
+  line-height: 1;
+  border-radius: 15px;
+}
+
+.btn-circle-table {
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    padding: 5px 0;
+    font-size: 10px;
+    border-radius: 20px;
+    border: 2px solid white;
+	color:white;
+	background-color: #246884;
+}
+
+.btn-circle-table:focus, .btn-circle-table:focus:hover,  .btn-circle-table:hover {
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    padding: 5px 0;
+    font-size: 10px;
+    border-radius: 20px;
+    border: 2px solid white;
+	color:#5098b5;
+	background-color: white;
+}
+
+.save {
+	color: #fde400;
+    background-color: #265173;
+    border-color: #265173;
+}
+
+.plus_minus.focus, .plus_minus:focus, .plus_minus:hover {
+	color: #265173;
+    text-decoration: none;
+	border-style:solid;
+	border-width:2px;
+}
+
+.create.focus, .create:focus, .create:hover {
+	color: #265173;
+    text-decoration: none;
+	border-style:solid;
+	border-width:2px;
+}
+
+.save.focus, .save:focus, .save:hover {
+	color: #fde400;
+    text-decoration: none;
+	border-style:solid;
+	border-width:1px;
+}
+
+/** TABLES DESIGN CREATE SCHEDULE **/
+.tables tr:nth-of-type(even) { 
+    background: #ccc;
+	border: 1px solid #ccc; 
+
+}
+
+.tables {
+  width: 100%;
+  table-layout: fixed;
+  word-wrap: break-word;
+  word-break: break-all;  
+}
+
+.tables td, 
+.tables th ,.tables tr{ 
+    border: 1px solid #ccc; 
+    text-align: left; 
+	color: #1e4f75;
+
+}
+
+.tables1 tr:nth-of-type(odd) { 
+    background: #fff;
+	border: 1px solid #ccc; 
+
+}
+
+.tables1 td, 
+.tables1 th ,.tables1 tr{ 
+    border: 1px solid #ccc; 
+    text-align: left; 
+}
+
+/** TABLES DESIGN CREATE SCHEDULE END**/
+
+/** TABLES DESIGN CREATE SCHEDULE **/
+
+.view_tables td{
+    table-layout: fixed;
+	border: 1px solid #ccc;
+	padding:6px; 
+}
+
+/** TABLES DESIGN CREATE SCHEDULE END **/
+
+
+/** MODAL DESIGN **/
+
+.modal {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) { 
+  .modal:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 100%;
+  }
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+/** MODAL DESIGN END**/
+
+
+/* CUSTOM DESIGN END*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
